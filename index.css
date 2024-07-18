@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #5d8c96;
+    height: 80px;
+
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.myntra_home {
+    height: 45px;
+}
+.logo_container {
+    margin-left: 4%;
+}
+.action_bar {
+    margin-right: 4%;
+}
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 5px solid #ffffff;
+}
+
+
+.footer_container {
+    padding: 30px ;
+    background: #f5f6f7;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color: #282c3f;
+}
+
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;}
+
+ 
+.first_page{
+    color: #0e5b6c;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding-left: 10px 10px;
+   
+}
+#one{
+    background-color: #b05656;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50%;
+    cursor:pointer    ;      
+}
+#two2{
+    width: 250pxpx;
+    height: 250px;
+}
+#photo1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    margin: 20px;
+}
+.container img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; /* Space between image and text */
+}
+.container .text {
+    max-width: 500px; /* Adjust based on your requirement */
+}
+
+.container2 {
+    display: flex;
+    align-items: center; /* Vertically center align the items */
+    margin: 20px;
+}
+.text2 {
+    margin-right: 20px; /* Space between text and image */
+    max-width: 60%; /* Adjust based on your requirement */
+}
+.image2 {
+    flex-shrink: 0;
+     /* Prevent the image from shrinking */
+}
+.image2 img {
+    width: 250px; /* Image width */
+    height: 250px; /* Image height */
+    border-radius: 50px;
+}
+
+main{
+    background-color: #add0d7;
+}
+
+.hi{
+    text-align: center;
+    color: #0c1f22;
+justify-content: center;
+border: inline start 5px;
+line-break: normal;
+padding-bottom: 50px;
+}

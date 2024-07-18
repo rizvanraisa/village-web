@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            transition: transform 0.2s;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+
+    <div class="gallery">
+        <img src="img.1.jpg" alt="Photo 1">
+        <img src="img.2.jpg" alt="Photo 2">
+        <img src="img.3.jpg" alt="Photo 3">
+        <img src="img.4.jpg" alt="Photo 4">
+        <img src="img.5.jpg" alt="Photo 5">
+        <img src="img.6.jpg" alt="Photo 6">
+        <img src="img.7.jpg" alt="Photo 6">
+        <img src="img.8.jpg" alt="Photo 6">
+        <img src="img.9.jpg" alt="Photo 6">
+        <img src="img.10.jpg" alt="Photo 6">
+        <img src="img.11.jpg" alt="Photo 6">
+        <img src="img.12.jpg" alt="Photo 6">
+        <img src="img.13.jpg" alt="Photo 6">
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Photo Gallery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
